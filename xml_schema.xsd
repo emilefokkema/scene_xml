@@ -4,6 +4,7 @@
 		<xs:complexType>
 			<xs:sequence>
 			<xs:element name="group" type="group" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="viewport" type="viewPort" minOccurs="0" maxOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -57,6 +58,12 @@
 	</xs:complexType>
 	
 	<xs:complexType name="viewPort">
+		<xs:sequence>
+			<xs:element name="lefttop" type="point" minOccurs="1" maxOccurs="1" />
+			<xs:element name="leftaxis" type="point" minOccurs="1" maxOccurs="1" />
+			<xs:element name="topaxis" type="point" minOccurs="1" maxOccurs="1" />
+			<xs:element name="viewpoint" type="point" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
 	</xs:complexType>
 	
 	<xs:simpleType name="colorString">
