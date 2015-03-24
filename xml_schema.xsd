@@ -64,6 +64,8 @@
 			<xs:element name="topaxis" type="point" minOccurs="1" maxOccurs="1" />
 			<xs:element name="viewpoint" type="point" minOccurs="1" maxOccurs="1" />
 		</xs:sequence>
+		<xs:attribute name="w" type="xs:integer" use="required" />
+		<xs:attribute name="h" type="xs:integer" use="required" />
 	</xs:complexType>
 	
 	<xs:simpleType name="colorString">
