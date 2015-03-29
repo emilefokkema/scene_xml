@@ -8,14 +8,6 @@
 		<lightsource color="255, 255, 255" radius="2">
 			<location x="0" y="3" z="0" />
 		</lightsource>
-		<rotation id="r4" axis="0" angle="-0.05">
-			<point x="0" y="0" z="0" />
-		</rotation>
-	</group>
-	<group>
-		<lightsource color="255, 255, 255" radius="2">
-			<location x="2" y="3" z="0" />
-		</lightsource>
 	</group>
 	<viewport w="1666" h="911"><lefttop x="1.9486169316645674" y="0.7568918934869668" z="-1.5285833829510036" /><leftaxis x="-2.055731007740036" y="0.116089254655809" z="-0.9071897865218612" /><topaxis x="-0.012940600868721397" y="-1.2236740065992198" z="-0.12726444964268868" /><viewpoint x="2.7428433820805687" y="0.6092985525457775" z="-6.137431503099843" /></viewport>
 </scene>
