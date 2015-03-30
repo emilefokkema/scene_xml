@@ -30,6 +30,7 @@
 			<xs:choice minOccurs="1" maxOccurs="unbounded">
 				<xs:element name="lightsource" type="lightSource" />
 				<xs:element name="plane" type="plane" />
+				<xs:element name="sphere" type="sphere" />
 			</xs:choice>
 			<xs:element name="rotation" type="rotation" minOccurs="0" maxOccurs="unbounded" />
 		</xs:sequence>
@@ -41,6 +42,14 @@
 			<xs:element name="normal" type="point" minOccurs="1" maxOccurs="1" />
 		</xs:sequence>
 		<xs:attributeGroup ref="shapeAttributes" />
+	</xs:complexType>
+	
+	<xs:complexType name="sphere">
+		<xs:sequence>
+			<xs:element name="center" type="point" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+		<xs:attributeGroup ref="shapeAttributes" />
+		<xs:attribute name="radius" type="xs:decimal" />
 	</xs:complexType>
 	
 	<xs:attributeGroup name="shapeAttributes">

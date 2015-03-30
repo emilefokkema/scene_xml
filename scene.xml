@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scene xmlns="http://www.sogyo.nl/efokkema_raytrace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
-	<group>
-		<plane reflection="0" diffusion="0.4" color="80,20,20">
-			<point x="0" y="-1" z="0" />
-			<normal x="0" y="1" z="0" />
-		</plane>
-		<lightsource color="255, 255, 255" radius="2">
-			<location x="0" y="3" z="0" />
-		</lightsource>
-	</group>
-	<viewport w="1666" h="911"><lefttop x="1.9486169316645674" y="0.7568918934869668" z="-1.5285833829510036" /><leftaxis x="-2.055731007740036" y="0.116089254655809" z="-0.9071897865218612" /><topaxis x="-0.012940600868721397" y="-1.2236740065992198" z="-0.12726444964268868" /><viewpoint x="2.7428433820805687" y="0.6092985525457775" z="-6.137431503099843" /></viewport>
-</scene>
+<?xml version="1.0" encoding="UTF-8"?><scene xmlns="http://www.sogyo.nl/efokkema_raytrace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ><group><plane reflection="0" diffusion="0.4" color="80,20,20"><point x="0" y="-1" z="0"/><normal x="0" y="1" z="0"/></plane><lightsource color="255,255,255" radius="1"><location x="0" y="10" z="0" /></lightsource><sphere reflection="0" diffusion="0.4" color="20,80,20" radius="1"><center x="0" y="2" z="0" /></sphere><sphere reflection="0" diffusion="0.4" color="20,80,20" radius="1"><center x="3" y="2" z="0" /></sphere></group><viewport w="992" h="911"><lefttop x="-8.856033648108973" y="2.3251073489546528" z="-0.6355713987459461" /><leftaxis x="3.338131770737676" y="2.088862417835534" z="6.49296304802716" /><topaxis x="0.8624746713683962" y="-6.704648260021959" z="1.7135525939263663" /><viewpoint x="-20.267191281167868" y="0.05164328358428781" z="10.40305926669252" /></viewport></scene>
